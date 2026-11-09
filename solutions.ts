@@ -33,8 +33,6 @@ const formatCoordinate = (coordinate: readonly [number, number, string]): string
 
     const [latitude, longitude, location] =coordinate
 
-
-
     return `Location: ${location} (${latitude},${longitude})`
 
 }
